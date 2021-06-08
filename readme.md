@@ -8,6 +8,8 @@
 
 ### sicp execise compare
 
+### TODO links
+
 ## things todo
 
 ### coding down
