@@ -1,0 +1,44 @@
+* install racket and sicp library
+
+#+begin_src bash
+  ## ubunut
+  sudo apt update -y
+  sudo apt install -y racket
+
+  ## macos
+  brew tap caskroom/cask
+  brew install racket
+
+  ## arch linux
+  sudo pacman -S racket
+
+  ## install sicp
+  raco pkg install sicp
+
+#+end_src
+
+* run sicp
+
+- save file in `demo.scm`
+- setup `#lang sicp` on first line
+- run it with `racket demo.scm`
+
+#+begin_src scheme :tangle "demo.scm"
+  #lang sicp
+
+  (define A (inc 5))
+  A
+#+end_src
+
+#+RESULTS:
+
+* TODO spacemacs scheme layer
+
+* TODO vscode setup
+
+* TODO racket documents
+[[https://docs.racket-lang.org/index.html][racket documentation]]
+
+** TODO how to output to stdout
+
+** TODO how to compile racket source to binary
